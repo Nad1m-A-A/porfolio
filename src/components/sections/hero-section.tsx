@@ -18,14 +18,14 @@ export function HeroSection() {
               className="text-center text-[1.6875rem] leading-9 font-thin text-foreground sm:text-[2.025rem] sm:leading-10 lg:text-start lg:text-[2.7rem] lg:leading-none"
             >
               The Name is{" "}
-              <span className="text-accent tracking-wider">Nadim.</span>
+              <span className="text-accent tracking-wider font-bold">Nadim.</span>
             </motion.h1>
 
             <motion.div
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.12, duration: 0.8, ease: heroEase }}
-              className="space-y-1 text-center text-[2.025rem] leading-10 font-bold text-foreground sm:-ms-2 sm:space-y-2 sm:text-[2.7rem] sm:leading-none md:space-y-3 md:text-[3.375rem] lg:space-y-4 lg:text-start lg:text-[4.05rem] xl:text-[5.4rem]"
+              className="space-y-1 text-center text-[2.025rem] leading-10 font-thin text-foreground sm:-ms-2 sm:space-y-2 sm:text-[2.7rem] sm:leading-none md:space-y-3 md:text-[3.375rem] lg:space-y-4 lg:text-start lg:text-[4.05rem] xl:text-[5.4rem]"
             >
               <p className="whitespace-nowrap">Full-Stack</p>
               <p className="whitespace-nowrap">Self-Taught</p>
