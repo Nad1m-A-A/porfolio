@@ -16,7 +16,7 @@ export function SiteHeader() {
       initial={{ opacity: 0, y: -16 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-      className="sticky top-0 z-50 border-b border-border bg-background"
+      className="sticky top-0 z-50 border-b border-border bg-background shadow-[inset_0_0_100px_rgba(0,0,0,0.1),0_0_10px_rgba(0,0,0,0.1)]"
     >
       <div className="flex h-16 items-center justify-between px-10 z-10">
         <Link
