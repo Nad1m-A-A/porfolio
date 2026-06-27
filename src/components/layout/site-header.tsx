@@ -26,9 +26,9 @@ export function SiteHeader() {
       <div className="z-10 flex h-16 items-center justify-between px-10">
         <Link
           href="/"
-          className={`${logoFont.className} italic`}
+          className={`${logoFont.className} text-xl`}
         >
-          Nadim Alaa ^ <span className={`${arabicFont.className}`}>نديم علاء</span>
+          Nadim Alaa
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
